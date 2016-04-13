@@ -1,46 +1,19 @@
-﻿2016/04/12 14:18:19 にビルドを開始しました。
-     1>ノード 5 上のプロジェクト "E:\Cocos2d-x_Projects\Remix_Project\src\Remix\cocos2d\cocos\editor-support\spine\proj.win32\libSpine.vcxproj" (Build ターゲット)。
+﻿2016/04/12 14:55:56 にビルドを開始しました。
+     1>ノード 4 上のプロジェクト "E:\Cocos2d-x_Projects\Remix_Project\src\Remix\cocos2d\cocos\editor-support\spine\proj.win32\libSpine.vcxproj" (Build ターゲット)。
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"E:\Cocos2d-x_Projects\Remix_Project\src\Remix\cocos2d\cocos\2d\..\..\\" /I"E:\Cocos2d-x_Projects\Remix_Project\src\Remix\cocos2d\cocos\2d\..\..\cocos\audio\include" /I"E:\Cocos2d-x_Projects\Remix_Project\src\Remix\cocos2d\cocos\2d\..\..\cocos\editor-support" /I"E:\Cocos2d-x_Projects\Remix_Project\src\Remix\cocos2d\cocos\2d\..\..\extensions" /I"E:\Cocos2d-x_Projects\Remix_Project\src\Remix\cocos2d\cocos\2d\..\..\cocos\editor-support" /I"E:\Cocos2d-x_Projects\Remix_Project\src\Remix\cocos2d\cocos\2d\..\..\cocos" /I"E:\Cocos2d-x_Projects\Remix_Project\src\Remix\cocos2d\cocos\2d\..\..\cocos\platform" /I"E:\Cocos2d-x_Projects\Remix_Project\src\Remix\cocos2d\cocos\2d\..\..\cocos\platform\desktop" /I"E:\Cocos2d-x_Projects\Remix_Project\src\Remix\cocos2d\cocos\2d\..\..\external\glfw3\include\win32" /I"E:\Cocos2d-x_Projects\Remix_Project\src\Remix\cocos2d\cocos\2d\..\..\external\win32-specific\gles\include\OGLES" /I"E:\Cocos2d-x_Projects\Remix_Project\src\Remix\cocos2d\cocos\2d\..\..\external\freetype2\include\win32\freetype2" /I"E:\Cocos2d-x_Projects\Remix_Project\src\Remix\cocos2d\cocos\2d\..\..\external\freetype2\include\win32\\" /I"E:\Cocos2d-x_Projects\Remix_Project\src\Remix\cocos2d\cocos\2d\..\..\external" /ZI /nologo /W3 /WX- /MP /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _LIB /D COCOS2DXWIN32_EXPORTS /D GL_GLEXT_PROTOTYPES /D COCOS2D_DEBUG=1 /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D _VARIADIC_MAX=10 /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug.win32\\" /Fd"Debug.win32\vc120.pdb" /Gd /TC /wd4267 /wd4251 /wd4244 /analyze- /errorReport:prompt ..\Animation.c ..\AnimationState.c ..\AnimationStateData.c ..\Atlas.c ..\AtlasAttachmentLoader.c ..\Attachment.c ..\AttachmentLoader.c ..\Bone.c ..\BoneData.c ..\BoundingBoxAttachment.c ..\Event.c ..\EventData.c ..\extension.c ..\IkConstraint.c ..\IkConstraintData.c ..\Json.c ..\MeshAttachment.c ..\RegionAttachment.c ..\Skeleton.c ..\SkeletonBounds.c ..\SkeletonData.c ..\SkeletonJson.c ..\Skin.c ..\SkinnedMeshAttachment.c ..\Slot.c ..\SlotData.c
-         Animation.c
-         AnimationState.c
-         AnimationStateData.c
-         Atlas.c
-         AtlasAttachmentLoader.c
-         Attachment.c
-         AttachmentLoader.c
-         Bone.c
-         BoneData.c
-         BoundingBoxAttachment.c
-         Event.c
-         EventData.c
-         extension.c
-         IkConstraint.c
-         IkConstraintData.c
-         Json.c
-         MeshAttachment.c
-         RegionAttachment.c
-         Skeleton.c
-         SkeletonBounds.c
-         SkeletonData.c
-         SkeletonJson.c
-         Skin.c
-         SkinnedMeshAttachment.c
-         Slot.c
-         SlotData.c
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"E:\Cocos2d-x_Projects\Remix_Project\src\Remix\cocos2d\cocos\2d\..\..\\" /I"E:\Cocos2d-x_Projects\Remix_Project\src\Remix\cocos2d\cocos\2d\..\..\cocos\audio\include" /I"E:\Cocos2d-x_Projects\Remix_Project\src\Remix\cocos2d\cocos\2d\..\..\cocos\editor-support" /I"E:\Cocos2d-x_Projects\Remix_Project\src\Remix\cocos2d\cocos\2d\..\..\extensions" /I"E:\Cocos2d-x_Projects\Remix_Project\src\Remix\cocos2d\cocos\2d\..\..\cocos\editor-support" /I"E:\Cocos2d-x_Projects\Remix_Project\src\Remix\cocos2d\cocos\2d\..\..\cocos" /I"E:\Cocos2d-x_Projects\Remix_Project\src\Remix\cocos2d\cocos\2d\..\..\cocos\platform" /I"E:\Cocos2d-x_Projects\Remix_Project\src\Remix\cocos2d\cocos\2d\..\..\cocos\platform\desktop" /I"E:\Cocos2d-x_Projects\Remix_Project\src\Remix\cocos2d\cocos\2d\..\..\external\glfw3\include\win32" /I"E:\Cocos2d-x_Projects\Remix_Project\src\Remix\cocos2d\cocos\2d\..\..\external\win32-specific\gles\include\OGLES" /I"E:\Cocos2d-x_Projects\Remix_Project\src\Remix\cocos2d\cocos\2d\..\..\external\freetype2\include\win32\freetype2" /I"E:\Cocos2d-x_Projects\Remix_Project\src\Remix\cocos2d\cocos\2d\..\..\external\freetype2\include\win32\\" /I"E:\Cocos2d-x_Projects\Remix_Project\src\Remix\cocos2d\cocos\2d\..\..\external" /ZI /nologo /W3 /WX- /MP /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _LIB /D COCOS2DXWIN32_EXPORTS /D GL_GLEXT_PROTOTYPES /D COCOS2D_DEBUG=1 /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D _VARIADIC_MAX=10 /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug.win32\\" /Fd"Debug.win32\vc120.pdb" /Gd /TP /wd4267 /wd4251 /wd4244 /analyze- /errorReport:prompt ..\PolygonBatch.cpp ..\SkeletonAnimation.cpp ..\SkeletonRenderer.cpp "..\spine-cocos2dx.cpp"
          PolygonBatch.cpp
          SkeletonAnimation.cpp
          SkeletonRenderer.cpp
          spine-cocos2dx.cpp
-     1>e:\cocos2d-x_projects\remix_project\src\remix\cocos2d\cocos\base\ccutf8.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (..\SkeletonAnimation.cpp)
-     1>e:\cocos2d-x_projects\remix_project\src\remix\cocos2d\cocos\base\ccutf8.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (..\SkeletonRenderer.cpp)
      1>e:\cocos2d-x_projects\remix_project\src\remix\cocos2d\cocos\base\ccutf8.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (..\PolygonBatch.cpp)
      1>e:\cocos2d-x_projects\remix_project\src\remix\cocos2d\cocos\base\ccutf8.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (..\spine-cocos2dx.cpp)
+     1>e:\cocos2d-x_projects\remix_project\src\remix\cocos2d\cocos\base\ccutf8.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (..\SkeletonAnimation.cpp)
+     1>e:\cocos2d-x_projects\remix_project\src\remix\cocos2d\cocos\base\ccutf8.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (..\SkeletonRenderer.cpp)
+     1>e:\cocos2d-x_projects\remix_project\src\remix\cocos2d\cocos\platform\ccsaxparser.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (..\spine-cocos2dx.cpp)
+     1>e:\cocos2d-x_projects\remix_project\src\remix\cocos2d\cocos\platform\ccsaxparser.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (..\PolygonBatch.cpp)
      1>e:\cocos2d-x_projects\remix_project\src\remix\cocos2d\cocos\platform\ccsaxparser.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (..\SkeletonAnimation.cpp)
      1>e:\cocos2d-x_projects\remix_project\src\remix\cocos2d\cocos\platform\ccsaxparser.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (..\SkeletonRenderer.cpp)
-     1>e:\cocos2d-x_projects\remix_project\src\remix\cocos2d\cocos\platform\ccsaxparser.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (..\PolygonBatch.cpp)
-     1>e:\cocos2d-x_projects\remix_project\src\remix\cocos2d\cocos\platform\ccsaxparser.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (..\spine-cocos2dx.cpp)
      1>e:\cocos2d-x_projects\remix_project\src\remix\cocos2d\cocos\editor-support\spine\skeletonrenderer.cpp(252): warning C4996: 'cocos2d::DrawPrimitives::setDrawColor4B': が古い形式として宣言されました。
                  e:\cocos2d-x_projects\remix_project\src\remix\cocos2d\cocos\2d\ccdrawingprimitives.h(245) : 'cocos2d::DrawPrimitives::setDrawColor4B' の宣言を確認してください。
      1>e:\cocos2d-x_projects\remix_project\src\remix\cocos2d\cocos\editor-support\spine\skeletonrenderer.cpp(265): warning C4996: 'cocos2d::DrawPrimitives::drawPoly': が古い形式として宣言されました。
@@ -93,4 +66,4 @@
 
 ビルドに成功しました。
 
-経過時間 00:00:17.96
+経過時間 00:00:08.56
